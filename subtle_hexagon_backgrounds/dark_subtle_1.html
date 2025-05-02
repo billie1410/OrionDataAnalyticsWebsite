@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hexagon Background Animated</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #000000;
+    }
+    .hex {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      fill: rgba(255, 255, 255, 0.2);
+      opacity: 0.2;
+      animation: float 5s ease-in-out infinite, pulse 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%   { transform: translateY(0px); }
+      50%  { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50%      { transform: scale(1.1); }
+    }
+    svg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:33%; left:63%; animation-duration:6.47s, 4.63s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:28%; left:24%; animation-duration:7.33s, 4.31s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:23%; left:34%; animation-duration:5.83s, 5.57s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:52%; left:35%; animation-duration:6.78s, 5.82s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:24%; left:10%; animation-duration:4.87s, 3.3s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:78%; left:37%; animation-duration:4.54s, 4.7s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:13%; left:52%; animation-duration:5.18s, 5.49s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:97%; left:61%; animation-duration:7.11s, 3.04s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:91%; left:26%; animation-duration:7.07s, 5.48s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:40%; left:88%; animation-duration:5.36s, 5.54s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:40%; left:45%; animation-duration:5.24s, 5.14s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:11%; left:8%; animation-duration:7.65s, 3.22s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:76%; left:13%; animation-duration:7.91s, 4.28s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:2%; left:23%; animation-duration:7.14s, 4.99s;" />
+<polygon class="hex" points="30,10 50,10 60,30 50,50 30,50 20,30" style="top:26%; left:79%; animation-duration:7.55s, 3.24s;" />
+
+  </svg>
+</body>
+</html>
