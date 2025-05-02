@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hexagon Overlay Background - Flat Top - Light</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .hexagon-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .hex-wrapper {
+      position: absolute;
+      animation: float infinite ease-in-out;
+      opacity: 0.05;
+    }
+
+    .hex-wrapper svg {
+      fill: #000000;
+    }
+
+    @keyframes float {
+      0%   { transform: translateY(0px) scale(1); }
+      50%  { transform: translateY(-20px) scale(1.1); }
+      100% { transform: translateY(0px) scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="hexagon-background">
+    
+        <div class="hex-wrapper" style="top: 72%; left: 80%; animation-duration: 10s;">
+          <svg viewBox="0 0 100 100" style="width: 92px; height: 92px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 6%; left: 80%; animation-duration: 12s;">
+          <svg viewBox="0 0 100 100" style="width: 77px; height: 77px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 86%; left: 80%; animation-duration: 16s;">
+          <svg viewBox="0 0 100 100" style="width: 80px; height: 80px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 31%; left: 48%; animation-duration: 16s;">
+          <svg viewBox="0 0 100 100" style="width: 97px; height: 97px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 35%; left: 17%; animation-duration: 15s;">
+          <svg viewBox="0 0 100 100" style="width: 55px; height: 55px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 22%; left: 87%; animation-duration: 12s;">
+          <svg viewBox="0 0 100 100" style="width: 75px; height: 75px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 19%; left: 14%; animation-duration: 10s;">
+          <svg viewBox="0 0 100 100" style="width: 54px; height: 54px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 42%; left: 20%; animation-duration: 16s;">
+          <svg viewBox="0 0 100 100" style="width: 91px; height: 91px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 27%; left: 85%; animation-duration: 15s;">
+          <svg viewBox="0 0 100 100" style="width: 81px; height: 81px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+        <div class="hex-wrapper" style="top: 23%; left: 70%; animation-duration: 12s;">
+          <svg viewBox="0 0 100 100" style="width: 66px; height: 66px; transform: rotate(90deg);">
+            <polygon points="50,0 93,25 93,75 50,100 7,75 7,25"/>
+          </svg>
+        </div>
+        
+  </div>
+</body>
+</html>
