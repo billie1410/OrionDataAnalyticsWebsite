@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hexagon Background</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #ffffff; }
+    svg { position: absolute; width: 100vw; height: 100vh; top: 0; left: 0; z-index: -1; }
+    .hex { fill: rgba(0, 0, 0, 0.6); opacity: 0.6; }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon class="hex" points="50,15 65,25 65,45 50,55 35,45 35,25" />
+    <polygon class="hex" points="20,60 35,70 35,90 20,100 5,90 5,70" />
+    <polygon class="hex" points="80,60 95,70 95,90 80,100 65,90 65,70" />
+  </svg>
+</body>
+</html>
