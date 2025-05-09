@@ -1,5 +1,5 @@
 body {
-  background: #252525;
+  background: transparent; /* transparent background */
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
@@ -7,8 +7,8 @@ body {
 
 .Iam {
   padding: 2em 5%;
-  font-size: 2.5vw; /* Scales with viewport */
-  line-height: 1.2em;
+  font-size: 3.5vw; /* increased from 2.5vw */
+  line-height: 1.4em;
   color: #CACACA;
   display: flex;
   flex-wrap: wrap;
@@ -25,7 +25,7 @@ body {
 .Iam b {
   overflow: hidden;
   position: relative;
-  height: 1.2em;
+  height: 1.4em;
   display: inline-block;
 }
 
@@ -46,10 +46,10 @@ body {
   color: #FF5733;
 }
 
-/* Responsive font and animation speed */
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .Iam {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .Iam .innerIam {
     animation-duration: 8s;
@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 480px) {
   .Iam {
-    font-size: 6vw;
+    font-size: 7vw;
     padding: 1.5em 5%;
   }
   .Iam .innerIam {
@@ -66,11 +66,11 @@ body {
   }
 }
 
-/* Animation Keyframes */
+/* Animation */
 @keyframes move {
   0%   { top: 0; }
-  20%  { top: -1.2em; }
-  40%  { top: -2.4em; }
-  60%  { top: -3.6em; }
-  80%  { top: -4.8em; }
+  20%  { top: -1.4em; }
+  40%  { top: -2.8em; }
+  60%  { top: -4.2em; }
+  80%  { top: -5.6em; }
 }
