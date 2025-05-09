@@ -38,7 +38,6 @@ body {
   top: 0;
   left: 0;
 
-  /* animation */
   animation: move 5s infinite;
   animation-delay: 1s;
 }
@@ -47,10 +46,13 @@ body {
   color: #FF5733;
 }
 
-/* Responsive font scaling for smaller screens */
+/* Responsive font and animation speed */
 @media (max-width: 768px) {
   .Iam {
     font-size: 5vw;
+  }
+  .Iam .innerIam {
+    animation-duration: 8s;
   }
 }
 
@@ -58,6 +60,9 @@ body {
   .Iam {
     font-size: 6vw;
     padding: 1.5em 5%;
+  }
+  .Iam .innerIam {
+    animation-duration: 8s;
   }
 }
 
