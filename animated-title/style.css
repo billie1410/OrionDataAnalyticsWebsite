@@ -1,11 +1,11 @@
 body {
-  background: #2d2d2d;
+  background: #252525;
 }
 
 .Iam {
   padding: 2em 5em;
   font: normal 40px/50px Montserrat, sans-serif;
-  color: #999;
+  color: #CACACA;
 }
 .Iam p {
   height: 50px;
@@ -21,7 +21,7 @@ body {
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #e74c3c;
+  color: #A901B9;
   position: relative;
   white-space: nowrap;
   top: 0;
