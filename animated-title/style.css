@@ -4,7 +4,7 @@ body {
 
 .Iam {
   padding: 2em 5em;
-  font: normal 50px/72px Lato Bold, sans-serif;
+  font: normal 40px/50px Lato Bold, sans-serif;
   color: #999;
 }
 .Iam p {
@@ -29,11 +29,11 @@ body {
 
 
 /*animation*/
--webkit-animation:move 15s;
-   -moz-animation:move 15s;
-    -ms-animation:move 15s;
-     -o-animation:move 15s;
-        animation:move 15s;
+-webkit-animation:move 5s;
+   -moz-animation:move 5s;
+    -ms-animation:move 5s;
+     -o-animation:move 5s;
+        animation:move 5s;
 /*animation-iteration-count*/
 -webkit-animation-iteration-count:infinite;
    -moz-animation-iteration-count:infinite;
